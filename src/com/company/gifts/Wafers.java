@@ -3,7 +3,7 @@ package com.company.gifts;
 /**
  * Вафли
  */
-public class Wafers extends SweetsBase {
+public class Wafers extends Sweet {
 
     private String filling; // начинка
 
@@ -11,6 +11,13 @@ public class Wafers extends SweetsBase {
         super(SweetsType.Wafers, name, weight, price);
 
         this.filling = filling;
+    }
+
+    @Override
+    public void printAbout() {
+        printAboutBasic();
+
+        System.out.println("Начинка: " + filling);
     }
 
     public String getFilling(){

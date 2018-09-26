@@ -3,17 +3,28 @@ package com.company.gifts;
 /**
  * Конфеты
  */
-public class Candy extends SweetsBase {
+public class Candy extends Sweet {
 
-    private boolean whisCocolate; // шоколадная или нет
+    private boolean withCocolate; // шоколадная или нет
 
     public Candy(String name, double weight, double price, boolean whisCocolate){
         super(SweetsType.Candies, name, weight, price);
 
-        this.whisCocolate = whisCocolate;
+        this.withCocolate = whisCocolate;
     }
 
-    public boolean isWhisCocolate() {
-        return whisCocolate;
+    public boolean isWithCocolate() {
+        return withCocolate;
+    }
+
+    @Override
+    public void printAbout() {
+        printAboutBasic();
+
+        if (isWithCocolate()){
+            System.out.println("С шоколадом");
+        } else {
+            System.out.println("Без шоколада");
+        }
     }
 }
