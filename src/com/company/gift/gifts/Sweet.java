@@ -1,4 +1,4 @@
-package com.company.gifts;
+package com.company.gift.gifts;
 
 /**
  * Базовый класс для всех сладостей
