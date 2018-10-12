@@ -1,11 +1,11 @@
-package com.company;
+package com.company.gift;
 
 
-import com.company.giftbag.GiftBag;
-import com.company.gifts.Candy;
-import com.company.gifts.Lollipop;
-import com.company.gifts.SweetsType;
-import com.company.gifts.Wafers;
+import com.company.gift.giftbag.GiftBag;
+import com.company.gift.gifts.Candy;
+import com.company.gift.gifts.Lollipop;
+import com.company.gift.gifts.SweetsType;
+import com.company.gift.gifts.Wafers;
 
 public class Main {
 

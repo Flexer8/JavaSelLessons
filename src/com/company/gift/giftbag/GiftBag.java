@@ -1,8 +1,8 @@
-package com.company.giftbag;
+package com.company.gift.giftbag;
 
 
-import com.company.gifts.Sweet;
-import com.company.gifts.SweetsType;
+import com.company.gift.gifts.Sweet;
+import com.company.gift.gifts.SweetsType;
 
 import java.util.ArrayList;
 import java.util.Iterator;
